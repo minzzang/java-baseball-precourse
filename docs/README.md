@@ -10,6 +10,9 @@
 + 게임을 종료한 후 게임을 다시 시작하거나 완전히 종료할 수 있다.
 + 사용자가 잘못된 값을 입력할 경우 IllegalArgumentException을 발생시킨 후 애플리케이션은 종료되어야 한다.
 
+## Domain Modeling
+<img width="1183" alt="domain model" src="https://user-images.githubusercontent.com/60321742/163822035-049a7c7e-41bb-4482-a753-bdb08e1e97df.png">
+
 ## 기능 구현 목록
 
 ### Domain
