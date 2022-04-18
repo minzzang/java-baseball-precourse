@@ -1,7 +1,6 @@
 package baseball.domain;
 
 import baseball.domain.ball.MultipleBalls;
-import baseball.domain.game.Innings;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

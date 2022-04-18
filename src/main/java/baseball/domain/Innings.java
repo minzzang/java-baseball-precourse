@@ -1,4 +1,4 @@
-package baseball.domain.game;
+package baseball.domain;
 
 public class Innings {
 
@@ -19,5 +19,10 @@ public class Innings {
 
     public int getBallCount() {
         return ballCount;
+    }
+
+    public void init() {
+        strikeCount = 0;
+        ballCount = 0;
     }
 }

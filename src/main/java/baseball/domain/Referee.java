@@ -1,7 +1,6 @@
 package baseball.domain;
 
 import baseball.domain.ball.MultipleBalls;
-import baseball.domain.game.Innings;
 
 import static baseball.config.BaseBallConfig.BALL_SIZE;
 
