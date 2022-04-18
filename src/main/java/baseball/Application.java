@@ -1,7 +1,11 @@
 package baseball;
 
+import baseball.view.GameCommand;
+
 public class Application {
+
     public static void main(String[] args) {
-        // TODO: 프로그램 구현
+        GameCommand.START.command();
     }
+
 }
