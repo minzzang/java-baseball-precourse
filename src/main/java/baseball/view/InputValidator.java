@@ -17,12 +17,11 @@ public class InputValidator {
         validateDuplicate(input);
     }
 
-
     public static int validateNumber(String input) {
         try {
             return Integer.parseInt(input);
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("숫자만 입력가능합니다.");
+            throw new IllegalArgumentException("숫자만 입력 가능합니다.");
         }
     }
 
