@@ -2,7 +2,6 @@ package baseball.view;
 
 import baseball.common.Converter;
 import baseball.controller.Game;
-import baseball.domain.Innings;
 import camp.nextstep.edu.missionutils.Console;
 
 public class ConsoleView {
@@ -23,10 +22,8 @@ public class ConsoleView {
     }
 
     public static void showResult(Game game) {
-        Innings innings = game.getInnings();
-
-        InningsResult result = InningsResult.of(innings);
-        result.show(innings);
+        InningsResult result = game.getInningsResult();
+        result.show(game.getInnings());
     }
 
     public static void gameOver() {

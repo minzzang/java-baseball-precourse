@@ -4,6 +4,7 @@ import baseball.domain.Batter;
 import baseball.domain.Innings;
 import baseball.domain.Pitcher;
 import baseball.domain.Referee;
+import baseball.view.InningsResult;
 
 public class Game {
 
@@ -41,5 +42,9 @@ public class Game {
 
     public Innings getInnings() {
         return innings;
+    }
+
+    public InningsResult getInningsResult() {
+        return InningsResult.of(innings);
     }
 }
